@@ -1,0 +1,26 @@
+ALGORITHM checkpoint_algo
+var
+x,y,i: INTEGER;
+ch: STRING;
+BEGIN
+x:= 0 ;
+y:= 0 ;
+i:= 0 ;
+write ("type the STRING")
+read(ch)
+repeat
+if (ch[i]=" " ) then
+x:= x+1;
+end_if
+if (ch[i] in ["a","z","e","r","t","y"])
+then
+y:=y+1;
+end_if
+i:=i+1
+
+unitil (ch[i]=".")
+write("le nombre de caractère est" , i+1)
+write("le nombre de mot est" , x+1)
+write("le nombre de voyelle est" , b)
+
+end
